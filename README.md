@@ -32,8 +32,8 @@ Write a name in the popped up banner and there you go , a shortcut will be creat
 
 - HTML
 - CSS
-- BOOTSTRAP
-- JAVASCRIPT
+- Bootstrap
+- Javascript
 
 ### Tools used :
 
