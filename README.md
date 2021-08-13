@@ -42,9 +42,25 @@ Write a name in the popped up banner and there you go , a shortcut will be creat
 
 ### Functionalities Added : 
 
-- Add Bookmark
-- Edit Bookmark
-- Delete Bookmark
-- Visit Bookmark
+1. Add Bookmark
 
-If you like the idea please give it a star.
+  - All the elements are accessed using query selector
+  - Upon inputting the data in input fields a unique id is generated 
+    using uuidv4 program created by Robert Kieffer 
+  - Bookmark name and url along with the id generated are stored in local storage
+  - After that the UI is updated by fethching the data from local storage 
+
+2. Edit Bookmark
+
+  - On Click event listener is used to determine when the event button is clicked
+  - Id is passed as a parameter to the function to access the respective Bookmark
+  - After the Bookmark is fetched the values are displayed to the user
+  - Values are updated in the local storage after the user hits submit button after editing the values.
+ 
+3. Delete Bookmark
+
+  - Same process of fetching the data is used as in Edit Bookmark function
+    and adding to that filter function is used to filter out the respective bookmark.
+
+
+Thats it for the description of the project.If you like the idea please give it a star.
